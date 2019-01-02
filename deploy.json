@@ -8,7 +8,10 @@
         },
         "_artifactsLocationSasToken": {
             "type": "string",
-            "defaultValue": ""
+            "defaultValue": "",
+            "metadata": {
+                "description": "token"
+            }
         },
         "KeyVaultPrefix": {
             "type": "string",
