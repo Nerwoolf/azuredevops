@@ -3,12 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "_artifactsLocation": {
-            "type": "string",
-            "defaultValue": null
+            "type": "string"
         },
         "_artifactsLocationSasToken": {
-            "type": "string",
-            "defaultValue": null
+            "type": "string"
         },
         "KeyVaultPrefix":{
             "type": "string"
