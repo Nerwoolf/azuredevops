@@ -3,23 +3,18 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "_artifactsLocation": {
-        "type": "string",
         "value": "https://raw.githubusercontent.com/Nerwoolf/azuredevops/master/"
     },
     "_artifactsLocationSasToken": {
-        "type": "string",
         "value": ""
     },
     "KeyVaultPrefix": {
-        "type": "string",
         "value": "keyvault"
     },
     "tenantId": {
-        "type": "string",
         "value": "d3b7e17b-0ede-4e99-b3af-7aa477d58247"
     },
     "objectId": {
-        "type": "string",
         "value": "9d868970-011f-4175-b01e-e25dcae49d15"
     }
   }
