@@ -40,20 +40,7 @@
                     "name": "standard",
                     "family": "A"
                 }
-            },
-            "resources": [
-              {
-                "type": "secrets",
-                "name": "vmpassword",
-                "apiVersion": "2015-06-01",
-                "properties": {
-                   "value": "63052nerwoolf"
-                 },
-                "dependsOn": [
-                   "[concat('Microsoft.KeyVault/vaults/', variables('KeyVaultName'))]"
-                 ]
-              }
-            ]
+            }
         }
     ],
     "outputs": {}
