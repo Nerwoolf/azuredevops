@@ -12,7 +12,7 @@
         },
         "KeyVaultPrefix": {
             "type": "string",
-            "defaultValue": "keyvault"
+            "defaultValue": "keykeep"
         },
         "tenantId": {
             "type": "string"
