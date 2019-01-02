@@ -4,21 +4,23 @@
   "parameters": {
     "_artifactsLocation": {
         "type": "string",
-        "defaultValue": "https://raw.githubusercontent.com/Nerwoolf/azuredevops/master/"
+        "value": "https://raw.githubusercontent.com/Nerwoolf/azuredevops/master/"
     },
     "_artifactsLocationSasToken": {
         "type": "string",
-        "defaultValue": ""
+        "value": ""
     },
     "KeyVaultPrefix": {
         "type": "string",
-        "defaultValue": "keyvault"
+        "value": "keyvault"
     },
     "tenantId": {
-        "type": "d3b7e17b-0ede-4e99-b3af-7aa477d58247"
+        "type": "string",
+        "value": "d3b7e17b-0ede-4e99-b3af-7aa477d58247"
     },
     "objectId": {
-        "type": "9d868970-011f-4175-b01e-e25dcae49d15"
+        "type": "string",
+        "value": "9d868970-011f-4175-b01e-e25dcae49d15"
     }
   }
 }
