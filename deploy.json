@@ -27,8 +27,6 @@
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2015-01-01",
             "name": "KeyVault",
-            "tags": {
-            },
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
