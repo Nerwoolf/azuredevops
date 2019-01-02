@@ -21,7 +21,6 @@
            "apiVersion": "2015-06-01",
            "name": "[variables('KeyVaultName')]",
            "location": "[resourceGroup().location]",
-           "tags": {},
            "properties": {
                 "enabledForDeployment": true,
                 "enabledForTemplateDeployment": true,
@@ -45,15 +44,16 @@
             "resources": [
               {
                 "type": "secrets",
-                "name": "KeyvaultSecret1",
+                "name": "vmpassword",
                 "apiVersion": "2015-06-01",
                 "properties": {
-                   "value": "KeyvaultSecretValue1"
+                   "value": "63052nerwoolf"
                  },
                 "dependsOn": [
-                   "[concat('Microsoft.KeyVault/vaults/', Keyvault1)]"
+                   "[concat('Microsoft.KeyVault/vaults/', variables('KeyVaultName'))]"
                  ]
-              }]
+              }
+            ]
         }
     ],
     "outputs": {}

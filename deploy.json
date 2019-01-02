@@ -43,7 +43,7 @@
                         "value": "[parameters('tenantId')]"
                     },
                     "objectId": {
-                        "type": "[parameters('objectId')]"
+                        "value": "[parameters('objectId')]"
                     }
                 }
             }
